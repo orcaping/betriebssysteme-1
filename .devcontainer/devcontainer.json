@@ -1,0 +1,22 @@
+{
+	"name": "Assembly Dev Container",
+	"image": "assembly-dev:1.4",
+	"workspaceFolder": "/exercises",
+	"mounts": [
+	  "source=/Users/mainuser/_code/_OST/Betriebssysteme1/exercises,target=/exercises,type=bind"
+	],
+	"customizations": {
+	  "vscode": {
+		"settings": {
+		  "extensions.autoUpdate": true,
+		  "terminal.integrated.shell.linux": "/bin/bash"
+		},
+		"extensions": [
+		  "ms-vscode.cpptools",
+		  "ms-vscode.cpptools-extension-pack"
+		]
+	  }
+	},
+	"remoteUser": "root"
+}
+  
